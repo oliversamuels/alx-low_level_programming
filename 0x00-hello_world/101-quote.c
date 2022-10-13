@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 /**
  * main - Prints to standard error
@@ -9,8 +10,12 @@
 
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpa,\n
-2015-10-19\n");
+	char x[] = "and that piece of art is useful\"";
+	char y[] = " - Dora Korpa 2015-10-19\n";
+
+	strcat(x, y);
+
+	fprintf(stderr, "%s", x);
 
 	return (1);
 
