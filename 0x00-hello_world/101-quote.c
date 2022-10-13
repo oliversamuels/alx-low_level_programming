@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char x[] = "and that piece of art is useful\"";
+	char x[70] = "and that piece of art is useful\"";
 	char y[] = " - Dora Korpa 2015-10-19\n";
 
 	strcat(x, y);
