@@ -11,7 +11,7 @@
 int main(void)
 {
 	char x[70] = "and that piece of art is useful\"";
-	char y[] = " - Dora Korpar 2015-10-19\n";
+	char y[] = " - Dora Korpar, 2015-10-19\n";
 
 	strcat(x, y);
 
