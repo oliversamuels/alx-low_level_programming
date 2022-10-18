@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <main.h>
 
 /**
@@ -14,23 +13,10 @@ void print_alphabet_x10(void)
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
 		{
-			putchar(ch);
+			_putchar(ch);
 		}
-		putchar('\n');
+		_putchar('\n');
 
 		i++;
 	}
-}
-
-/**
- * main - A function that calls the print_alphabet_x10 function
- *
- * Return: Always 0 (success)
- */
-
-int main(void)
-{
-	print_alphabet_x10();
-
-	return (0);
 }
