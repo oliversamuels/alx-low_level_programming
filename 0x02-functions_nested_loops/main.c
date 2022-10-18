@@ -9,6 +9,6 @@
 
 int main(void)
 {
-	print_alphabet();
+	_islower('A');
 	return (0);
 }
