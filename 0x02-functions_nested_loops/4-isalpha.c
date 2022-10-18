@@ -3,6 +3,7 @@
 /**
  * main - checks if a parameter is alphabet
  * @c: Parameter to be checked
+ * Description: It checks a parameter, returns 1 if its alphabet
  * Return: Returns 1 if it is alphabet and 0 if its not
  *
  */
