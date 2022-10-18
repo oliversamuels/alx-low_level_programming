@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - checks if a parameter is alphabet
+ * _isalpha - checks if a parameter is alphabet
  * Description: Checks a parameter, return 1 if its alphabet.
  * @c: Parameter to be checked
  * Return: Returns 1 if it is alphabet and 0 if its not
