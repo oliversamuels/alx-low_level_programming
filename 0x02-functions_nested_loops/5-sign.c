@@ -2,7 +2,7 @@
 
 /**
   * print_sign - Prints the signs
-  *
+  * @n: The parameter that is being checked.
   * Return: Always 0 (success)
   */
 
