@@ -9,6 +9,6 @@
 
 int main(void)
 {
-	_islower('A');
+	_isalpha('A');
 	return (0);
 }
