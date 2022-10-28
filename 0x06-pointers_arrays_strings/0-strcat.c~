@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+  * *_strcat - Concatenates strings
+  * @dest: String destination
+  * @src: String source
+  * Return: Concatinate string
+  */
+
+char *_strcat(char *dest, char *src)
+{
+}
