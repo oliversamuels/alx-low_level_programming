@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
   * _strchr - Entry point
@@ -7,7 +8,7 @@
   * Return: Always 0
   */
 
-char *_strchr(char *s, char *c)
+char *_strchr(char *s, char c)
 {
 	int i;
 
