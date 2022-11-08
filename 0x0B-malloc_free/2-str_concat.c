@@ -15,14 +15,10 @@ char *str_concat(char *s1, char *s2)
 	char *array;
 
 	if (s1 == NULL)
-	{
 		s1 = "";
-	}
 
 	if (s2 == NULL)
-	{
 		s2 = "";
-	}
 
 	for (end1 = 0; end1 <= *s1; end1++)
 	{
