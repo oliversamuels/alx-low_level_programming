@@ -14,9 +14,14 @@ char *str_concat(char *s1, char *s2)
 	int end1, end2, i = 0;
 	char *array;
 
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL)
 	{
-		s1 = s2 = "";
+		s1 = "";
+	}
+
+	if (s2 == NULL)
+	{
+		s2 = "";
 	}
 
 	for (end1 = 0; end1 <= *s1; end1++)
