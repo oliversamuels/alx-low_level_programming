@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlob.h>
+#include <stdlib.h>
 
 /**
   * str_concat - Entry point
