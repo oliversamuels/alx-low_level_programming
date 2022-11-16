@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "funtion_pointers.h"
+#include "function_pointers.h"
 
 /**
   * int_index - Entry Point
@@ -12,7 +12,7 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+	unsigned int i;
 
 	if (array == NULL || cmp == NULL)
 		return (-1);
