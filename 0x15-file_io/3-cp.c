@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	if (s_file < 0)
 	{ dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98); }
-	d_file = open(agrv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	d_file = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	if (d_file < 0)
 	{ dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99); }
